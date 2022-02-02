@@ -3,10 +3,10 @@ A simple calculator to create, save and list the TTK/DPS values of guns.
 
 scripted with Pycharm Community Edition, uses python 3.10
 
-Command Line Usage:
+# Command Line Usage:
 python ttkcal.py
 
-Install usage:
+# Install usage:
 
 Download the ttkcalc archive.
 
@@ -19,7 +19,7 @@ move the shortcut to your desktop
 click and run.
 
 
-Extra Info:
+# Extra Info:
 
 This script will write files in the folder as you add weapons to your list. the file names are "advweaponlist.txt" and "weaponlist.txt"
 
