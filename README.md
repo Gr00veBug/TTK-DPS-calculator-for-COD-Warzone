@@ -4,7 +4,7 @@ A simple calculator to create, save and list the TTK/DPS values of guns.
 scripted with Pycharm Community Edition, uses python 3.10
 
 # Command Line Usage:
-python ttkcal.py
+python ttkcalc.py
 
 # Install usage:
 
