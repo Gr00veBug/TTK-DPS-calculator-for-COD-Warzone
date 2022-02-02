@@ -29,3 +29,5 @@ The Incendiary round feature uses Vanguard's Incendiary damage values, does not 
 
 My antivirus did pick this up once and quarintined the file. SO PLEASE read the code and make sure it looks good before running, I know I am the creator, but don't trust anybody...
 
+was compiled using pyinstaller 5.0.dev.0
+
