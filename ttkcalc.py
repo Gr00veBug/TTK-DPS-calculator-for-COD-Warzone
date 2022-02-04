@@ -1,5 +1,6 @@
 import time
 from datetime import date
+import sys
 
 def advdpscalc():
     gunname = input("Please type in the name of the gun.\n")
@@ -137,7 +138,19 @@ def  advweaponlist():
 
 
 def menu():
-    menuchoice = input("""Please choose an option
+    print("""
+      _______ _______ _  __   _____      _        _              _____       ___   ___            ____              
+     |__   __|__   __| |/ /  / ____|    | |      | |            / ____|     / _ \ / _ \          |  _ \             
+        | |     | |  | ' /  | |     __ _| | ___  | |__  _   _  | |  __ _ __| | | | | | |_   _____| |_) |_   _  __ _ 
+        | |     | |  |  <   | |    / _` | |/ __| | '_ \| | | | | | |_ | '__| | | | | | \ \ / / _ \  _ <| | | |/ _` |
+        | |     | |  | . \  | |___| (_| | | (__  | |_) | |_| | | |__| | |  | |_| | |_| |\ V /  __/ |_) | |_| | (_| |
+        |_|     |_|  |_|\_\  \_____\__,_|_|\___| |_.__/ \__, |  \_____|_|   \___/ \___/  \_/ \___|____/ \__,_|\__, |
+                                                         __/ |                                                 __/ |
+                                                        |___/                                                 |___/ 
+
+    """)
+    time.sleep(1)
+    menuchoice = input("""    Please choose an option
     
     1. TTK Calculator
     2. List TTK weapons
@@ -152,7 +165,7 @@ def menu():
     elif menuchoiceint == 5:
         print("Thank you for using TTK calculator!")
         time.sleep(2)
-        exit(0)
+        sys.exit(0)
     elif menuchoiceint == 3:
         advdpscalc()
     elif menuchoiceint == 4:
